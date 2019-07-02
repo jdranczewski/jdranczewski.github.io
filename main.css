@@ -1,6 +1,6 @@
 head, body {
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #f3f3f3;
     font-family: 'Lato', sans-serif;
 }
 
@@ -60,4 +60,23 @@ head, body {
     transform: perspective(300px) rotateX(5deg) rotateY(-5deg);
     box-shadow: 5px 2px 10px #b1b1b1;
     background-color: white;
+}
+
+#h1_projects {
+    color: #2196f3;
+    font-size: 3em;
+    clear: both;
+    text-align: center;
+    padding-top: 3em;
+    margin-bottom: 0;
+    background-image: linear-gradient(#f3f3f3, white);
+}
+
+#projects_container {
+    background-color: white;
+}
+
+#footer {
+    text-align: center;
+    color: #848484;
 }
