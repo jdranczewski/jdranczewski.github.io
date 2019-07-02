@@ -4,6 +4,30 @@ head, body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #2196f3;
+    position: relative;
+}
+
+a::before {
+    content: "";
+    background-color: #2196f342;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform-origin: bottom;
+    transform: scaleY(0.1) scaleX(0);
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+a:hover::before {
+    transform: scaleY(0.1) scaleX(1);
+    background-color: #2196f3;
+}
+
 #top {
     margin: 0 auto;
     max-width: 1300px;
@@ -62,6 +86,10 @@ head, body {
     background-color: white;
 }
 
+#cv::before {
+    display: none;
+}
+
 #h1_projects {
     color: #2196f3;
     font-size: 3em;
@@ -95,6 +123,11 @@ head, body {
 .project:hover {
     box-shadow: 0 1px 4px #00000045;
     background-color: #e7e7e7;
+}
+
+.project a {
+    display: inline-block;
+    margin: 1em;
 }
 
 #footer {
