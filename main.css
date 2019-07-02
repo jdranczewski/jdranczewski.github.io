@@ -133,4 +133,5 @@ a:hover::before {
 #footer {
     text-align: center;
     color: #848484;
+    padding: 1em;
 }
