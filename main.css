@@ -15,7 +15,7 @@ head, body {
     transform: perspective(300px) rotateX(2deg) rotateY(3deg);
     margin: 40px 100px 0 40px;
     border-radius: 5px;
-    box-shadow: 5px 2px 10px #b1b1b1;
+    box-shadow: 5px 2px 10px #00000045;
     transition: transform 0.5s;
 }
 
@@ -24,11 +24,11 @@ head, body {
 }
 
 #name {
-    color: #2196F3;
-    display: inline-block;
+    color: white;
     font-size: 5em;
     border-radius: 5px;
     margin: 40px 0 0 0;
+    background-color: #2196f3;
 }
 
 #tagline {
