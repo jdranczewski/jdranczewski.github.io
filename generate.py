@@ -5,7 +5,8 @@ subs = {
 }
 
 template = """
-<div class="project" style="background-image: url('{img}')">
+<div class="project">
+<img src="{img}" class="thumb">
 <div class="blinds">
 <div class="left"></div>
 <div class="top"></div>
@@ -28,14 +29,14 @@ projects = [
     },
     {
         "title": "Dimension Surfer",
-        "img": "img/Magic2.jpg",
+        "img": "img/DimSurf.jpg",
         "desc": "A Python game that showcases the mathematical concept of higher dimensions through a simple platform mechanic with a twist. Used Blender to generate level data.",
         "link": "https://github.com/jdranczewski/Dimension-Surfer-Project",
         "link_text": "GitHub"
     },
     {
         "title": "WikiTranslator",
-        "img": "img/Magic2.jpg",
+        "img": "img/wiki.jpg",
         "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms. Work in progress!",
         "link": "https://github.com/jdranczewski/WikiTranslator",
         "link_text": "GitHub"
