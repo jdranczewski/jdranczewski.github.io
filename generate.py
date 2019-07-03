@@ -5,7 +5,13 @@ subs = {
 }
 
 template = """
-<div class="project">
+<div class="project" style="background-image: url('{img}')">
+<div class="blinds">
+<div class="left"></div>
+<div class="top"></div>
+<div class="right"></div>
+<img src="img/blank.png">
+</div>
 <h1>{title}</h1>
 <div class="description">{desc}</div>
 <a href="{link}" target="_blank">{link_text}</a>
@@ -15,18 +21,21 @@ template = """
 projects = [
     {
         "title": "Magic2",
+        "img": "img/Magic2.jpg",
         "desc": "A Python-based GUI application for interpolating and analysing interferometry data. Created during an internship with the Plasma Physics group at Imperial College London.",
         "link": "https://github.com/jdranczewski/Magic2",
         "link_text": "GitHub"
     },
     {
         "title": "Dimension Surfer",
+        "img": "img/Magic2.jpg",
         "desc": "A Python game that showcases the mathematical concept of higher dimensions through a simple platform mechanic with a twist. Used Blender to generate level data.",
         "link": "https://github.com/jdranczewski/Dimension-Surfer-Project",
         "link_text": "GitHub"
     },
     {
         "title": "WikiTranslator",
+        "img": "img/Magic2.jpg",
         "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms. Work in progress!",
         "link": "https://github.com/jdranczewski/WikiTranslator",
         "link_text": "GitHub"

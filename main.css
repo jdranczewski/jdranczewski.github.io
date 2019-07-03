@@ -118,6 +118,9 @@ a:hover::before {
     margin: 0;
     display: inline-block;
     transition: box-shadow 0.5s, background-color 0.5s;
+    background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
 }
 
 .project:hover {
@@ -127,8 +130,59 @@ a:hover::before {
 
 .project a {
     display: inline-block;
-    margin: 0.5em;
+    margin: 0.5em 0;
     font-size: 1.5em;
+}
+
+.blinds {
+    position: relative;
+}
+
+.blinds div {
+    position: absolute;
+    background-color: white;
+    transition: all 0.5s;
+}
+
+.project:hover .blinds div {
+    background-color: #e7e7e7;
+}
+
+.blinds .left {
+    left: -20px;
+    top: -20px;
+    bottom: -10px;
+    width: 20px;
+}
+
+.project:hover .left {
+    left: -40px;
+}
+
+.blinds .top {
+    left: -20px;
+    top: -20px;
+    right: -20px;
+    height: 20px;
+}
+
+.project:hover .top {
+    top: -40px;
+}
+
+.blinds .right {
+    right: -20px;
+    top: -20px;
+    bottom: -10px;
+    width: 20px;
+}
+
+.project:hover .right {
+    right: -40px;
+}
+
+.blinds img {
+    width: 100%;
 }
 
 #footer {
