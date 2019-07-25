@@ -37,9 +37,9 @@ projects = [
     {
         "title": "WikiTranslator",
         "img": "img/wiki.jpg",
-        "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms. Work in progress!",
-        "link": "https://github.com/jdranczewski/WikiTranslator",
-        "link_text": "GitHub"
+        "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms.",
+        "link": "https://wikitranslator.github.io",
+        "link_text": "Visit"
     }
 ]
 
