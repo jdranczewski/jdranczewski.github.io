@@ -208,3 +208,13 @@ a:hover::before {
     color: #848484;
     padding: 1em;
 }
+
+@media only screen and (max-width: 700px) {}
+
+@media only screen and (max-width: 800px) {
+    .project {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+}
