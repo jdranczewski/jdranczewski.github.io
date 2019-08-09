@@ -209,7 +209,7 @@ a:hover::before {
     padding: 1em;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1300px) {
     #face {
         float: none;
     }
@@ -224,7 +224,11 @@ a:hover::before {
 
     #tagline {
         width: auto;
-        padding: 5px;
+        padding: 0 15px;
+    }
+
+    #cv {
+        margin: 15px
     }
 }
 
