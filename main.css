@@ -31,6 +31,7 @@ a:hover::before {
 #top {
     margin: 0 auto;
     max-width: 1300px;
+    overflow: hidden;
 }
 
 #face {
@@ -217,9 +218,10 @@ a:hover::before {
     #name {
       font-size: 3em;
       padding-top: 3em;
-      padding-left: 15px;
+      padding-right: 15px;
       margin: 10px;
-      margin-top: -2em;
+      margin-top: -3em;
+      text-align: right;
     }
 
     #tagline {
