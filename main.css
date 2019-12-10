@@ -38,7 +38,7 @@ a:hover::before {
     float: left;
     width: 300px;
     transform: perspective(300px) rotateX(2deg) rotateY(3deg);
-    margin: 40px 100px 0 40px;
+    margin: 40px 100px 30px 40px;
     border-radius: 5px;
     box-shadow: 5px 2px 10px #00000045;
     transition: transform 0.5s;
@@ -96,7 +96,7 @@ a:hover::before {
     font-size: 3em;
     clear: both;
     text-align: center;
-    padding-top: 3em;
+    padding-top: 2em;
     padding-bottom: 1em;
     margin: 0;
     background-image: linear-gradient(#e7e7e7, white);
