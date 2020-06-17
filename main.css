@@ -136,6 +136,7 @@ a:hover::after {
     display: inline-block;
     margin: 0.5em 0;
     font-size: 1.5em;
+    margin-right: 0.7em;
 }
 
 .project .thumb {

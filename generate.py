@@ -15,37 +15,43 @@ template = """
 </div>
 <h1>{title}</h1>
 <div class="description">{desc}</div>
-<a href="{link}" target="_blank">{link_text}</a>
+{links}
 </div>
+
 """
+
+link_template = '<a href="{link}" target="_blank">{link_text}</a>'
 
 projects = [
     {
         "title": "Magic2",
         "img": "img/Magic2.jpg",
         "desc": "A Python-based GUI application for interpolating and analysing interferometry data. Created during an internship with the Plasma Physics group at Imperial College London.",
-        "link": "https://github.com/jdranczewski/Magic2",
-        "link_text": "GitHub"
+        "links": ["https://github.com/jdranczewski/Magic2"],
+        "link_texts": ["GitHub"]
     },
     {
         "title": "Dimension Surfer",
         "img": "img/DimSurf.jpg",
         "desc": "A Python game that showcases the mathematical concept of higher dimensions through a simple platform mechanic with a twist. Used Blender to generate level data.",
-        "link": "https://github.com/jdranczewski/Dimension-Surfer-Project",
-        "link_text": "GitHub"
+        "links": ["https://github.com/jdranczewski/Dimension-Surfer-Project"],
+        "link_texts": ["GitHub"]
     },
     {
         "title": "WikiTranslator",
         "img": "img/wiki.jpg",
         "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms.",
-        "link": "https://wikitranslator.github.io",
-        "link_text": "Visit"
-    }
+        "links": ["https://github.com/jdranczewski/WikiTranslator", "https://wikitranslator.github.io"],
+        "link_texts": ["GitHub", "Visit"]
+    },
 ]
 
 projects_text = ""
 
 for project in projects:
+    project["links"] = " ".join([link_template.format(link=project["links"][i],
+                                                      link_text=project["link_texts"][i])
+                                 for i in range(len(project["links"]))])
     projects_text += template.format(**project)
 
 subs["projects"] = projects_text
