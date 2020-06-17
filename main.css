@@ -10,7 +10,7 @@ a {
     position: relative;
 }
 
-a::before {
+a::after {
     content: "";
     background-color: #2196f342;
     position: absolute;
@@ -23,7 +23,7 @@ a::before {
     transition: transform 0.5s, background-color 0.5s;
 }
 
-a:hover::before {
+a:hover::after {
     transform: scaleY(0.1) scaleX(1);
     background-color: #2196f3;
 }
@@ -87,7 +87,7 @@ a:hover::before {
     background-color: white;
 }
 
-#cv::before {
+#cv::after {
     display: none;
 }
 
@@ -213,6 +213,7 @@ a:hover::before {
 @media only screen and (max-width: 1300px) {
     #face {
         float: none;
+        width: 200px;
     }
 
     #name {
