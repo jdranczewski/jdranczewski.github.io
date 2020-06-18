@@ -31,6 +31,20 @@ projects = [
         "link_texts": ["GitHub"]
     },
     {
+        "title": "WikiTranslator",
+        "img": "img/wiki.jpg",
+        "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms.",
+        "links": ["https://github.com/jdranczewski/WikiTranslator", "https://wikitranslator.github.io"],
+        "link_texts": ["GitHub", "Visit"]
+    },
+    {
+        "title": "CSSlides",
+        "img": "img/CSSlides.jpg",
+        "desc": "Winner in the Best Educational Hack category of IC Hack 2020. A slideshow editor focusing on giving you complete freedom in designing delightful transitions",
+        "links": ["https://github.com/jdranczewski/ic-hack-2020", "https://csslides.netlify.app"],
+        "link_texts": ["GitHub", "Try it"]
+    },
+    {
         "title": "Dimension Surfer",
         "img": "img/DimSurf.jpg",
         "desc": "A Python game that showcases the mathematical concept of higher dimensions through a simple platform mechanic with a twist. Used Blender to generate level data.",
@@ -38,13 +52,29 @@ projects = [
         "link_texts": ["GitHub"]
     },
     {
-        "title": "WikiTranslator",
-        "img": "img/wiki.jpg",
-        "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms.",
-        "links": ["https://github.com/jdranczewski/WikiTranslator", "https://wikitranslator.github.io"],
+        "title": "YouDecideWhoIAm",
+        "img": "img/YDWIA.jpg",
+        "desc": "An ID badge based on the Raspberry Pi Zero. In this project it randomly displayed audience submissions, but I've also used this hardware platform for other Pi experiments.",
+        "links": ["https://github.com/jdranczewski/YouDecideWhoIAm"],
+        "link_texts": ["GitHub"]
+    },
+    {
+        "title": "DMX Controller",
+        "img": "img/dmx.jpg",
+        "desc": "Based on a PIC18 microprocessor with all of the code written in Assembly, this collaborative project outputs DMX (a data format for stage lighting).",
+        "links": ["https://github.com/jdranczewski/DMXControllerProject"],
+        "link_texts": ["GitHub"]
+    },
+    {
+        "title": "WYD Dictionary",
+        "img": "img/WYD.jpg",
+        "desc": "I've created the front end for a dictionary project for the World Youth Days in 2016. It interfaced with a SQLite database to provide browsing, searching, and submitting capabilities.",
+        "links": ["https://github.com/jdranczewski/WikiTranslator", "http://dranczewski.j.pl/wyd-dict/"],
         "link_texts": ["GitHub", "Visit"]
     },
 ]
+
+# To add: SimpleWebStats
 
 projects_text = ""
 
