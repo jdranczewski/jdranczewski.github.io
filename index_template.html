@@ -22,5 +22,24 @@
         <div id="projects">{projects}</div>
     </div>
     <div id="footer">© {year} Jakub Dranczewski</div>
+
+    <script type="text/javascript">
+    // Simple analytics: sends only a hit and a referrer domain (not the full
+    // address). Zero PII.
+    var xs = new XMLHttpRequest();
+    xs.open("POST", "https://jdranczewski.cba.pl/main/SimpleWebStats.php", true);
+    xs.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    var d = new Date();
+    var now = d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate()+" "+d.getHours()+":"+d.getMinutes()+":"+d.getSeconds();
+    var referrer = document.referrer.split("/")[2];
+    var mobile = (window.innerWidth <= 700);
+    if (document.location.origin == "https://jdranczewski.github.io") {
+        xs.send("visit"
+        +"&usertime="+encodeURIComponent(now)
+        +"&mobile="+encodeURIComponent(mobile)
+        +"&referrer="+encodeURIComponent(referrer)
+        );
+    }
+    </script>
   </body>
 </html>
