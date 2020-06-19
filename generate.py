@@ -66,6 +66,13 @@ projects = [
         "link_texts": ["GitHub"]
     },
     {
+        "title": "SimpleWebStats",
+        "img": "img/stats.jpg",
+        "desc": "A very simple, GDPR-compliant web analytics app that gathers the bare minimum of information while respecting the users' privacy.",
+        "links": ["https://github.com/jdranczewski/SimpleWebStats"],
+        "link_texts": ["GitHub"]
+    },
+    {
         "title": "WYD Dictionary",
         "img": "img/WYD.jpg",
         "desc": "I've created the front end for a dictionary project for the World Youth Days in 2016. It interfaced with a SQLite database to provide browsing, searching, and submitting capabilities.",
