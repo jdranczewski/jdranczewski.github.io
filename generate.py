@@ -24,6 +24,13 @@ link_template = '<a href="{link}" target="_blank">{link_text}</a>'
 
 projects = [
     {
+        "title": "puzzlepiece",
+        "img": "img/puzzlepiece.png",
+        "desc": "A GUI-forward Python framework for automating experimental setups - generates GUI components and a standardised API to make setup automation less unwieldy.",
+        "links": ["https://puzzlepiece.readthedocs.io/en/latest/"],
+        "link_texts": ["Documentation"]
+    },
+    {
         "title": "Magic2",
         "img": "img/Magic2.jpg",
         "desc": "A Python-based GUI application for interpolating and analysing interferometry data. Created during an internship with the Plasma Physics group at Imperial College London.",
