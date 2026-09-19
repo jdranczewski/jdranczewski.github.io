@@ -20,7 +20,7 @@ template = """
 
 """
 
-link_template = '<a href="{link}" target="_blank">{link_text}</a>'
+link_template = '<a href="{link}" target="_blank" class="main_link">{link_text}</a>'
 
 projects = [
     {
@@ -43,6 +43,20 @@ projects = [
         "desc": "A translation engine for words and phrases that uses Wikipedia's linked network of articles to find correct translations for complicated and scientific terms.",
         "links": ["https://github.com/jdranczewski/WikiTranslator", "https://wikitranslator.github.io"],
         "link_texts": ["GitHub", "Visit"]
+    },
+    {
+        "title": "PhD Thesis",
+        "img": "img/thesis.jpg",
+        "desc": "\"On-chip III-V semiconductor network lasers for neuromorphic computing\" – my work on neuromorphic computing at IBM Research Europe – Zurich and Imperial College London.",
+        "links": ["https://spiral.imperial.ac.uk/entities/publication/d655d291-fa7f-416f-a4e0-affe4e3634b8", "https://github.com/jdranczewski/phd-thesis-template/tree/main"],
+        "link_texts": ["Read it", "Template"]
+    },
+    {
+        "title": "Internet Roadtrip Scripts",
+        "img": "img/roadtrip.png",
+        "desc": "Many userscripts for <a href='https://neal.fun/internet-roadtrip/' target='_blank'>the Neal.fun game</a>, mostly focused on custom mapping and navigation tools, and Google Street View interactivity.",
+        "links": ["https://github.com/jdranczewski/internet-roadtrip-scripts", "https://greasyfork.org/en/users/1473129-jdranczewski"],
+        "link_texts": ["GitHub", "Install"]
     },
     {
         "title": "CSSlides",
@@ -71,6 +85,13 @@ projects = [
         "desc": "Based on a PIC18 microprocessor with all of the code written in Assembly, this collaborative project outputs DMX (a data format for stage lighting).",
         "links": ["https://github.com/jdranczewski/DMXControllerProject"],
         "link_texts": ["GitHub"]
+    },
+    {
+        "title": "Bachusiki",
+        "img": "img/bachusiki.png",
+        "desc": "A website started in 2012 cataloguing little sculptures across my hometown. Recently upgraded to take advantage of modern PHP and mapping tech, while keeping the old-web charm.",
+        "links": ["https://bachusiki.zgora.pl/"],
+        "link_texts": ["Visit (in Polish)"]
     },
     {
         "title": "SimpleWebStats",

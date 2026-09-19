@@ -132,7 +132,7 @@ a:hover::after {
     background-color: #e7e7e7;
 }
 
-.project a {
+.project .main_link {
     display: inline-block;
     margin: 0.5em 0;
     font-size: 1.5em;
