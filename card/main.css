@@ -40,7 +40,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-#hero {
+.hero {
     display: block;
     padding: 10px;
     margin: 5px 0;
@@ -51,12 +51,12 @@ h2 {
     font-weight: bold;
 }
 
-#hero:hover {
+.hero:hover {
     background-color: #eeeeee;
     border-radius: 10px;
 }
 
-#hero span {
+.hero span {
     font-size: 0.7em;
     color: #4682b2;
     font-weight: initial;
